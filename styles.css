@@ -22,6 +22,7 @@
   padding: 5rem 1rem;
 }
 
+
 .section__header {
   display: flex;
   align-items: center;
@@ -40,7 +41,15 @@
   align-items: center;
   gap: 1rem;
 }
+.seller__card {
+  aspect-ratio: 1/1; /* Set aspect ratio to 1:1 for square cards */
+  max-width: 70%; /* Remove the maximum width constraint */
+}
 
+.seller__card img {
+  max-width: 80%; /* Adjust the maximum width percentage for the images */
+  height: auto;
+}
 .section__nav span {
   padding: 0 7px;
   font-size: 1.75rem;
@@ -52,7 +61,8 @@
 }
 
 .section__nav span:hover {
-  color: var(--white);
+ 
+ 
   background-color: var(--primary-color);
   border-color: var(--primary-color);
 }
@@ -140,11 +150,12 @@ nav {
   padding: 5px;
   font-size: 1rem;
   font-weight: 500;
-  color: var(--white);
+  /* color: var(--white); */
+  color: rgb(52, 129, 192);
 }
 
 .link a:hover {
-  color: rgb(52, 129, 192);
+  color: rgb(251, 251, 251);
 }
 
 .header__container {
